@@ -1,5 +1,7 @@
 # React Hero Carousel
 
+![Example](./demo.gif)
+
 ## Features
 
 Inspired by [Supersized][supersized] jQuery slideshow plugin, the React Hero Carousel aims to be a bold, no-config hero banner carousel for landing pages implemented without external dependencies in React.
