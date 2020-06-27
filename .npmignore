@@ -1,4 +1,9 @@
+.cache/
 .github/
 .storybook/
 src/
+.editorconfig
+.eslintrc
+babel.config.js
+jest.config.js
 demo.gif
