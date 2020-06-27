@@ -12,5 +12,6 @@ jobs:
           node-version: "14.x"
       - run: yarn install --frozen-lockfile
       - run: yarn build
+      - run: yarn prepublish
         env:
           CI: true
