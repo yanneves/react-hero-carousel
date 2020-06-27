@@ -9,7 +9,8 @@
   "scripts": {
     "lint": "eslint \"./**/*.{js,jsx}\" --cache",
     "storybook": "start-storybook",
-    "build": "build-storybook"
+    "build": "build-storybook",
+    "test": "jest"
   },
   "husky": {
     "hooks": {
@@ -21,11 +22,15 @@
   },
   "devDependencies": {
     "@babel/core": "^7.10.3",
-    "@storybook/addon-storysource": "^5.3.19",
-    "@storybook/addon-viewport": "^5.3.19",
-    "@storybook/react": "^5.3.19",
-    "@storybook/source-loader": "^5.3.19",
+    "@babel/preset-env": "^7.10.3",
+    "@babel/preset-react": "^7.10.1",
+    "@storybook/addon-storyshots": "^6.0.0-beta.37",
+    "@storybook/addon-storysource": "^6.0.0-beta.37",
+    "@storybook/addon-viewport": "^6.0.0-beta.37",
+    "@storybook/react": "^6.0.0-beta.37",
+    "@storybook/source-loader": "^6.0.0-beta.37",
     "babel-eslint": "^10.1.0",
+    "babel-jest": "^26.1.0",
     "babel-loader": "^8.1.0",
     "eslint": "^7.3.1",
     "eslint-config-airbnb": "^18.2.0",
@@ -36,13 +41,17 @@
     "eslint-plugin-react": "^7.20.0",
     "eslint-plugin-react-hooks": "^4.0.4",
     "husky": "^4.2.5",
+    "identity-obj-proxy": "^3.0.0",
+    "jest": "^26.1.0",
     "lint-staged": "^10.2.11",
     "prettier": "^2.0.5",
     "prop-types": "^15.7.2",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
+    "react-test-renderer": "^16.13.1",
     "regenerator-runtime": "^0.13.5",
     "reset-css": "^5.0.1",
+    "typescript": "^3.9.5",
     "webpack": "^4.43.0",
     "webpack-merge": "^4.2.2"
   },
