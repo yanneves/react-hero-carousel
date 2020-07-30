@@ -2,6 +2,14 @@
   "name": "react-hero-carousel",
   "version": "1.0.2",
   "description": "A bold, no-config hero banner carousel for landing pages implemented without external dependencies in React",
+  "keywords": [
+    "react",
+    "react-component",
+    "carousel",
+    "gallery",
+    "slider",
+    "responsive"
+  ],
   "main": "dist/index.js",
   "repository": "git@github.com:yanneves/react-hero-carousel",
   "author": "Yann Eves <hello@yanneves.com>",
