@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import PropTypes from "prop-types";
 
-import styles from "./HeroCarousel.module.css";
+import * as styles from "./HeroCarousel.module.css";
 
 function HeroCarousel({ interval, children }) {
   if (interval < 1200) {
