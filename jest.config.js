@@ -3,5 +3,4 @@ module.exports = {
     "reset-css": "identity-obj-proxy",
     "\\.css$": "identity-obj-proxy",
   },
-  transform: { "^.+\\.jsx?$": "babel-jest" },
 };

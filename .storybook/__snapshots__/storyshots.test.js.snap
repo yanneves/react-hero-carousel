@@ -3,6 +3,118 @@
 exports[`Storyshots Example Background Images 1`] = `
 <div
   className="wrapper"
+  style={
+    Object {
+      "height": null,
+    }
+  }
+>
+  <div
+    className="slide active"
+  >
+    <article
+      style={
+        Object {
+          "backgroundImage": "url(https://placem.at/places?w=1920&h=1080&random=1&txt=1)",
+          "backgroundPosition": "center",
+          "backgroundRepeat": "no-repeat",
+          "backgroundSize": "cover",
+          "bottom": 0,
+          "left": 0,
+          "position": "absolute",
+          "right": 0,
+          "top": 0,
+        }
+      }
+    />
+  </div>
+  <div
+    className="slide"
+  >
+    <article
+      style={
+        Object {
+          "backgroundImage": "url(https://placem.at/places?w=1920&h=1080&random=2&txt=2)",
+          "backgroundPosition": "center",
+          "backgroundRepeat": "no-repeat",
+          "backgroundSize": "cover",
+          "bottom": 0,
+          "left": 0,
+          "position": "absolute",
+          "right": 0,
+          "top": 0,
+        }
+      }
+    />
+  </div>
+  <div
+    className="slide"
+  >
+    <article
+      style={
+        Object {
+          "backgroundImage": "url(https://placem.at/places?w=1920&h=1080&random=3&txt=3)",
+          "backgroundPosition": "center",
+          "backgroundRepeat": "no-repeat",
+          "backgroundSize": "cover",
+          "bottom": 0,
+          "left": 0,
+          "position": "absolute",
+          "right": 0,
+          "top": 0,
+        }
+      }
+    />
+  </div>
+  <div
+    className="slide"
+  >
+    <article
+      style={
+        Object {
+          "backgroundImage": "url(https://placem.at/places?w=1920&h=1080&random=4&txt=4)",
+          "backgroundPosition": "center",
+          "backgroundRepeat": "no-repeat",
+          "backgroundSize": "cover",
+          "bottom": 0,
+          "left": 0,
+          "position": "absolute",
+          "right": 0,
+          "top": 0,
+        }
+      }
+    />
+  </div>
+  <div
+    className="slide"
+  >
+    <article
+      style={
+        Object {
+          "backgroundImage": "url(https://placem.at/places?w=1920&h=1080&random=5&txt=5)",
+          "backgroundPosition": "center",
+          "backgroundRepeat": "no-repeat",
+          "backgroundSize": "cover",
+          "bottom": 0,
+          "left": 0,
+          "position": "absolute",
+          "right": 0,
+          "top": 0,
+        }
+      }
+    />
+  </div>
+</div>
+`;
+
+exports[`Storyshots Example Custom Height 1`] = `
+<div
+  className="wrapper"
+  style={
+    Object {
+      "height": "24em",
+    }
+  }
 >
   <div
     className="slide active"
@@ -105,6 +217,11 @@ exports[`Storyshots Example Background Images 1`] = `
 exports[`Storyshots Example Custom Interval 1`] = `
 <div
   className="wrapper"
+  style={
+    Object {
+      "height": null,
+    }
+  }
 >
   <div
     className="slide active"
@@ -207,6 +324,11 @@ exports[`Storyshots Example Custom Interval 1`] = `
 exports[`Storyshots Example Images 1`] = `
 <div
   className="wrapper"
+  style={
+    Object {
+      "height": null,
+    }
+  }
 >
   <div
     className="slide active"
