@@ -64,3 +64,13 @@ export const CustomInterval = () => (
     <BgSlide seed="5" />
   </HeroCarousel>
 );
+
+export const CustomHeight = () => (
+  <HeroCarousel height="24em">
+    <BgSlide seed="1" />
+    <BgSlide seed="2" />
+    <BgSlide seed="3" />
+    <BgSlide seed="4" />
+    <BgSlide seed="5" />
+  </HeroCarousel>
+);

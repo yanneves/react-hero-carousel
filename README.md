@@ -72,6 +72,14 @@ Must be at least 1200 ms
 <HeroCarousel interval={8000}>{/* slides */}</HeroCarousel>
 ```
 
+#### Custom Height
+
+Default height uses `100vh`, custom value can be any valid CSS value
+
+```jsx
+<HeroCarousel height="80em">{/* slides */}</HeroCarousel>
+```
+
 [supersized]: https://github.com/buildinternet/supersized
 [css-modules]: https://css-tricks.com/css-modules-part-1-need/
 [reset-css]: https://www.npmjs.com/package/reset-css

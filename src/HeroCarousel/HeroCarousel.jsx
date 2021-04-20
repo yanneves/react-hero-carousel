@@ -1,34 +1,30 @@
 import React, { useState, useEffect } from "react";
 import PropTypes from "prop-types";
 
-import * as styles from "./HeroCarousel.module.css";
+import { wrapper, slide, active } from "./HeroCarousel.module.css";
 
-function HeroCarousel({ interval, children }) {
+function HeroCarousel({ interval, height, children }) {
   if (interval < 1200) {
     throw new Error(
       `Interval provided to HeroCarousel component (${interval}ms) must be at least 1200ms`
     );
   }
 
-  const [active, setActive] = useState(0);
+  const [activeSlide, setActiveSlide] = useState(0);
 
   useEffect(() => {
     const count = React.Children.count(children);
     const autoplay = setTimeout(() => {
-      setActive(active + 1 >= count ? 0 : active + 1);
+      setActiveSlide(activeSlide + 1 >= count ? 0 : activeSlide + 1);
     }, interval);
 
     return () => clearTimeout(autoplay);
-  }, [children, interval, active, setActive]);
+  }, [children, interval, activeSlide, setActiveSlide]);
 
   return (
-    <div className={styles.wrapper}>
+    <div className={wrapper} style={{ height }}>
       {React.Children.map(children, (child, index) => (
-        <div
-          className={
-            active === index ? `${styles.slide} ${styles.active}` : styles.slide
-          }
-        >
+        <div className={activeSlide === index ? `${slide} ${active}` : slide}>
           {child}
         </div>
       ))}
@@ -38,11 +34,13 @@ function HeroCarousel({ interval, children }) {
 
 HeroCarousel.propTypes = {
   interval: PropTypes.number,
+  height: PropTypes.oneOfType([PropTypes.string, PropTypes.number]),
   children: PropTypes.node.isRequired,
 };
 
 HeroCarousel.defaultProps = {
   interval: 3000,
+  height: null,
 };
 
 export default React.memo(HeroCarousel);
