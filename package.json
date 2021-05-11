@@ -1,6 +1,6 @@
 {
   "name": "react-hero-carousel",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "A bold, no-config hero banner carousel for landing pages implemented without external dependencies in React",
   "keywords": [
     "react",
