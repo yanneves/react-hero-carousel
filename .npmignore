@@ -1,8 +1,10 @@
 .cache/
 .github/
 .storybook/
+storybook-static/
 src/
 .editorconfig
+.eslintignore
 .eslintrc
 babel.config.js
 jest.config.js
