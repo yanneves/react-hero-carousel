@@ -1,6 +1,6 @@
 {
   "name": "react-hero-carousel",
-  "version": "1.2.1",
+  "version": "0.0.0-development",
   "description": "A bold, no-config hero banner carousel for landing pages implemented without external dependencies in React",
   "keywords": [
     "react",
@@ -15,6 +15,7 @@
   "author": "Yann Eves <hello@yanneves.com>",
   "license": "MIT",
   "scripts": {
+    "semantic-release": "semantic-release",
     "prepublish": "babel src -d dist --copy-files --source-maps",
     "lint": "eslint \"./**/*.{js,jsx}\" --cache",
     "storybook": "start-storybook",
@@ -59,6 +60,7 @@
     "react-test-renderer": "^17.0.2",
     "regenerator-runtime": "^0.13.7",
     "reset-css": "^5.0.1",
+    "semantic-release": "^17.4.4",
     "webpack": "^5.37.0",
     "webpack-merge": "^5.7.3"
   },
